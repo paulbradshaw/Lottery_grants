@@ -50,7 +50,8 @@ br["ctl00$phMainContent$dropDownAwardDate"] = ["Between"]
 br["ctl00$phMainContent$txtGrantDateFrom"] = "01/01/2014"
 br["ctl00$phMainContent$txtGrantDateTo"]  = "20/01/2017"
 
-
+#print the values being held by br
+print br
 response = br.submit()
 #print response.read()
 html = response.read()
